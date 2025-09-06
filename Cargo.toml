@@ -1,0 +1,9 @@
+[package]
+name = "hyper-client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+hyper = { version = "1.7", features = ["full"] }
+tokio = { version = "1.47", features = ["full"] }
+http-body-util = "0.1"
